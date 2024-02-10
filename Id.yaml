@@ -1,212 +1,29 @@
 proxies:
-- name: 1.lowh.net
-  server: support.liveon.id
+- name: ID KMSP
+  server: circles.asia
   port: 443
   type: trojan
-  password: e660b8f0-6f3f-11ee-9911-1577c1651679
+  password: 76d47c6f-c5e4-46a2-90aa-fa7fd89ddc40
   skip-cert-verify: true
-  sni: 1.lowh.net
+  sni: id-trojan-vvip-12.topvpn.my.id
   network: ws
   ws-opts: 
-    path: /howdy
+    path: /websocket-trojan
     headers: 
-      Host: 1.lowh.net
+      Host: id-trojan-vvip-12.topvpn.my.id
   udp: true   
   
 
-- name: 13.lowh.net
-  server: support.liveon.id
+- name: Modem Sukabumi
+  server: circles.asia
   port: 443
   type: trojan
-  password: 0f4ab180-6f40-11ee-a0f9-1577c1651679
+  password: fe576de0-c2bb-47cb-b070-d60f3c1f70c6
   skip-cert-verify: true
-  sni: 13.lowh.net
+  sni: modemsmi.vpn-vvip.tech
   network: ws
   ws-opts: 
-    path: /howdy
+    path: /trojan-ws
     headers: 
-      Host: 13.lowh.net
-  udp: true   
-
-- name: 4.lowh.net
-  server: support.liveon.id
-  port: 443
-  type: trojan
-  password: 339a0300-6f40-11ee-abfe-1577c1651679
-  skip-cert-verify: true
-  sni: 4.lowh.net
-  network: ws
-  ws-opts: 
-    path: /howdy
-    headers: 
-      Host: 4.lowh.net
-  udp: true     
-
-- name: id-biznet1.bypass.id
-  server: support.liveon.id
-  port: 443
-  type: trojan
-  password: 24c71200-586e-11ee-87b9-1577c1651679
-  skip-cert-verify: true
-  sni: id-biznet1.bypass.id
-  network: ws
-  ws-opts: 
-    path: /howdy
-    headers: 
-      Host: id-biznet1.bypass.id
-  udp: true 
-
-- name: id Free 1
-  server: support.liveon.id
-  port: 443
-  type: trojan
-  password: 55c805e0-73b5-11ee-af89-1239d0255272
-  skip-cert-verify: true
-  sni: id-1.test3.net
-  network: ws
-  ws-opts: 
-    path: /howdy
-    headers: 
-      Host: id-1.test3.net
-  udp: true   
-
-
-- name: id Free 2
-  server: support.liveon.id
-  port: 443
-  type: trojan
-  password: 65da2af0-73b5-11ee-9f8d-1239d0255272
-  skip-cert-verify: true
-  sni: id-1.test3.net
-  network: ws
-  ws-opts: 
-    path: /howdy
-    headers: 
-      Host: id-1.test3.net
-  udp: true   
-
-
-- name: id Free 3
-  server: support.liveon.id
-  port: 443
-  type: trojan
-  password: 8ae93da0-73b5-11ee-af17-1239d0255272
-  skip-cert-verify: true
-  sni: id-1.test3.net
-  network: ws
-  ws-opts: 
-    path: /howdy
-    headers: 
-      Host: id-1.test3.net
-  udp: true   
-
-
-- name: id Free 4
-  server: support.liveon.id
-  port: 443
-  type: trojan
-  password: 9b584900-73b5-11ee-8ea9-1239d0255272
-  skip-cert-verify: true
-  sni: id-1.test3.net
-  network: ws
-  ws-opts: 
-    path: /howdy
-    headers: 
-      Host: id-1.test3.net
-  udp: true   
-
-
-- name: id Free 5
-  server: support.liveon.id
-  port: 443
-  type: trojan
-  password: b4ca2590-73b5-11ee-8bd2-1239d0255272
-  skip-cert-verify: true
-  sni: id-1.test3.net
-  network: ws
-  ws-opts: 
-    path: /howdy
-    headers: 
-      Host: id-1.test3.net
-  udp: true   
-
-
-- name: id Free 6
-  server: support.liveon.id
-  port: 443
-  type: trojan
-  password: c571d160-73b5-11ee-9fc2-1239d0255272
-  skip-cert-verify: true
-  sni: id-1.test3.net
-  network: ws
-  ws-opts: 
-    path: /howdy
-    headers: 
-      Host: id-1.test3.net
-  udp: true   
-
-
-- name: id Free 7
-  server: support.liveon.id
-  port: 443
-  type: trojan
-  password: d5579410-73b5-11ee-8028-1239d0255272
-  skip-cert-verify: true
-  sni: id-1.test3.net
-  network: ws
-  ws-opts: 
-    path: /howdy
-    headers: 
-      Host: id-1.test3.net
-  udp: true   
-
-
-- name: bizznet jagoan ssh 2o nop
-  server: support.liveon.id
-  port: 443
-  type: trojan
-  password: vvip-erdi0105
-  skip-cert-verify: true
-  sni: mn2tr.jagoan.vip
-  network: ws
-  ws-opts: 
-    path: /trojan
-    headers: 
-      Host: mn2tr.jagoan.vip
-  udp: true  
-
-- name: VMess Tester
-  type: vmess
-  server: support.liveon.id
-  port: 80
-  uuid: a65366d0-c52b-11ed-b736-205c6d5f5d78
-  alterId: 0
-  cipher: auto
-  udp: true
-  xudp: false
-  global-padding: false
-  authenticated-length: false
-  skip-cert-verify: true
-  tls: false
-  network: ws
-  ws-opts:
-    path: /t5ongmau
-    headers:
-      Host: id-1.0rd.net   
-
-- name: 2.lowh.net
-  server: 104.22.8.121
-  port: 443
-  type: vmess
-  uuid: f1a8c460-6f43-11ee-83a4-1577c1651679
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: 2.lowh.net
-  network: ws
-  ws-opts:
-    path: GET-:ws://support.liveon.id/files
-    headers:
-      Host: 2.lowh.net
+      Host: modemsmi.vpn-vvip.tech
   udp: true  
